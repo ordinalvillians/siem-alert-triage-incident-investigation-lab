@@ -1,0 +1,57 @@
+=================================================================
+SIEM ALERT TRIAGE REPORT
+Dataset: Simulated security alerts
+=================================================================
+Total alerts analysed: 8
+
+SEVERITY SUMMARY
+Critical: 2
+High: 3
+Medium: 2
+Low: 1
+
+ALERT-BY-ALERT TRIAGE
+-----------------------------------------------------------------
+A1001 | Severity: Medium | Priority: P3
+  Host: WIN-CLIENT01 | User: jsmith
+  Alert: Repeated Failed Logins
+  Recommended action: Monitor and correlate related events
+
+A1002 | Severity: High | Priority: P1
+  Host: WIN-CLIENT01 | User: jsmith
+  Alert: Successful Login After Failures
+  Recommended action: Investigate authentication sequence
+
+A1003 | Severity: High | Priority: P2
+  Host: WIN-SRV02 | User: administrator
+  Alert: Repeated Failed Logins
+  Recommended action: Review account and source patterns
+
+A1004 | Severity: High | Priority: P2
+  Host: WIN-CLIENT03 | User: asmith
+  Alert: Unusual PowerShell Activity
+  Recommended action: Review process and command evidence
+
+A1005 | Severity: Critical | Priority: P1
+  Host: WIN-CLIENT04 | User: mbrown
+  Alert: Malware Detection
+  Recommended action: Escalate for immediate investigation
+
+A1006 | Severity: Low | Priority: P3
+  Host: WIN-CLIENT02 | User: kwilson
+  Alert: Successful Login
+  Recommended action: Review during routine triage
+
+A1007 | Severity: Critical | Priority: P1
+  Host: WIN-SRV02 | User: administrator
+  Alert: Successful Login After Failures
+  Recommended action: Investigate authentication sequence
+
+A1008 | Severity: Medium | Priority: P3
+  Host: WIN-CLIENT05 | User: guest
+  Alert: Repeated Failed Logins
+  Recommended action: Monitor and correlate related events
+
+NOTE: Priorities are preliminary triage recommendations.
+The dataset is simulated; alerts do not prove compromise.
+=================================================================

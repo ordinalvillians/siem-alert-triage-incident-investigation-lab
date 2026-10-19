@@ -1,0 +1,9 @@
+alert_id,timestamp,hostname,username,source_ip,alert_type,severity,failed_logins,description
+A1001,2026-10-19 08:14:12,WIN-CLIENT01,jsmith,192.0.2.45,Repeated Failed Logins,Medium,6,Multiple failed login attempts for one account
+A1002,2026-10-19 08:16:03,WIN-CLIENT01,jsmith,192.0.2.45,Successful Login After Failures,High,6,Successful login followed repeated failures
+A1003,2026-10-19 08:22:45,WIN-SRV02,administrator,198.51.100.23,Repeated Failed Logins,High,9,Repeated failed attempts against administrator account
+A1004,2026-10-19 08:35:10,WIN-CLIENT03,asmith,192.0.2.80,Unusual PowerShell Activity,High,0,PowerShell execution flagged for review
+A1005,2026-10-19 08:42:51,WIN-CLIENT04,mbrown,192.0.2.90,Malware Detection,Critical,0,Endpoint protection reports a malware detection
+A1006,2026-10-19 08:48:33,WIN-CLIENT02,kwilson,192.0.2.70,Successful Login,Low,0,Normal successful login event
+A1007,2026-10-19 09:02:17,WIN-SRV02,administrator,198.51.100.23,Successful Login After Failures,Critical,9,Successful login recorded after repeated failures
+A1008,2026-10-19 09:15:28,WIN-CLIENT05,guest,192.0.2.110,Repeated Failed Logins,Medium,5,Repeated failures involving guest account
